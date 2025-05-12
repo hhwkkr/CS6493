@@ -115,11 +115,11 @@
 
 * n-gram
   
-  - Unigram:![](.\img\2-1-2-Unigram.png)
+  - Unigram:![](./img/2-1-2-Unigram.png)
   - Full history Model: 依赖于之前整个历史
-  - ![](.\img\2-1-3-4gramModel.png)
+  - ![](./img/2-1-3-4gramModel.png)
   - 稀疏性问题中，分子中w可能不出现导致概率为0，分母中若不出现则导致无法计算，然后还有存储问题需要存储所有语料中的n-grams，所以增大语料也会增大模型大小
-  - ![].\img\2-1-4-gramsol.png)
+  - ![](./img/2-1-4-gramsol.png)
   - 对于分子我们可以添加一个小的δ来做一个平滑，对于分母我们可以进行回退到更小的分割。
 
 #### Neural language models
