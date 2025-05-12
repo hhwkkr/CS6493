@@ -369,8 +369,6 @@ Huffman tree: the binary tree with minimal external path weight
 
 * Construct a Huffman tree: merge two nodes with the minimum frequencies and consider them together as a single node; repeat until there is only one node
 
-* 应该会考一道计算
-
 * 假设词汇表有4个词：{“the”, “cat”, “dog”, “bird”}，词频分别为 {100, 50, 30, 20}
 
 * 根
